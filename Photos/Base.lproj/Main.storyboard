@@ -51,7 +51,11 @@
                         <viewLayoutGuide key="safeArea" id="Hz2-um-69F"/>
                     </view>
                     <toolbarItems>
-                        <barButtonItem systemItem="camera" id="ena-Hk-5Kc"/>
+                        <barButtonItem systemItem="camera" id="ena-Hk-5Kc">
+                            <connections>
+                                <action selector="takePhoto:" destination="1VY-Ad-nTR" id="GJk-wY-NSi"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="01A-uB-fR5"/>
                         <barButtonItem systemItem="organize" id="LTx-64-0Yv"/>
                     </toolbarItems>
